@@ -1,0 +1,24 @@
+{
+  "name": "backend_template",
+  "version": "1.0.0",
+  "description": "Este repositorio es un template base para un proyecto de back, usando js, node y eslint",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "lint": "eslint."
+  },
+  "author": "C.E Sharkstart",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "globals": "^15.11.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}

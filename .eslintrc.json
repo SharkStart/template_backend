@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true, // Indica que estamos usando Node.js
+    "es2021": true, // Soporte para ES2021
+    "browser": true // Si estás usando código que se ejecuta en el navegador también
+  },
+  "extends": [
+    "eslint:recommended" // Extiende las configuraciones recomendadas por ESLint
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12, // Define la versión de ECMAScript
+    "sourceType": "module" // Para utilizar import/export
+  },
+  "rules": {
+    "no-console": "off", // Permite el uso de console.log
+    "semi": ["error", "always"], // Requiere punto y coma
+    "quotes": ["error", "single"], // Usa comillas simples para cadenas
+    "indent": ["error", 2] // Indenta con 2 espacios
+  }
+}
